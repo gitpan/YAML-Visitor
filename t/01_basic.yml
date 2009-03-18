@@ -1,0 +1,13 @@
+hash: hoge
+
+array:
+  - foo
+  - bar
+  - baz
+
+mix:
+  array:
+    - foo
+    - bar
+    - baz
+

@@ -1,0 +1,27 @@
+This is Perl module YAML::Visitor.
+
+INSTALLATION
+
+YAML::Visitor installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan YAML::Visitor
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+DOCUMENTATION
+
+YAML::Visitor documentation is available as in POD. So you can do:
+
+    % perldoc YAML::Visitor
+
+to read the documentation online with your favorite pager.
+
+Kazuhiro Nishikawa

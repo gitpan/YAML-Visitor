@@ -1,0 +1,22 @@
+---
+abstract: 'Like visitor style traversal for yaml '
+author:
+  - 'Kazuhiro Nishikawa <kazuhiro.nishikawa@gmail.com>'
+build_requires:
+  Test::More: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.76'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: YAML-Visitor
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  YAML::Syck: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.00001

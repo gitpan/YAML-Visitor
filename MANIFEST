@@ -1,0 +1,13 @@
+Changes
+lib/YAML/Visitor.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+t/00_compile.t
+t/01_basic.t
+t/01_basic.yml
+t/97_podspell.t
+t/98_perlcritic.t
+t/99_pod.t
+t/perlcriticrc
