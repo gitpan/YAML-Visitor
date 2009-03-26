@@ -1,5 +1,8 @@
 Revision history for Perl extension YAML::Visitor
 
+0.00003 2009/03/26
+        - remove t/97_podspell.t and t/98_perlcritic.t
+
 0.00002 2009/03/19
         - update MANIFEST
 
