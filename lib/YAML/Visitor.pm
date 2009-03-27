@@ -2,7 +2,7 @@ package YAML::Visitor;
 use strict;
 use warnings;
 use YAML::Syck;
-our $VERSION = '0.00003';
+our $VERSION = '0.00004';
 
 sub new {
     my $class = shift;
@@ -76,9 +76,9 @@ YAML::Visitor - Like visitor style traversal for yaml
 
   my $visitor = YAML::Visitor->new(
       callback => sub {
-          my $value = shift:
+          my $value = shift;
           if (defined $value) {
-              $value =~ s/path_to/path/ge;
+              $value =~ s/path_to/path/g;
           }
           $value;
       }
