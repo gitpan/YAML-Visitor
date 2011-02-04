@@ -3,6 +3,7 @@ name 'YAML-Visitor';
 all_from 'lib/YAML/Visitor.pm';
 requires 'YAML::Syck';
 build_requires 'Test::More';
-use_test_base;
+build_requires 'Test::Builder';
+build_requires 'Test::Builder::Module';
 auto_include;
 WriteAll;

@@ -2,7 +2,7 @@ package YAML::Visitor;
 use strict;
 use warnings;
 use YAML::Syck;
-our $VERSION = '0.00004';
+our $VERSION = '0.00005';
 
 sub new {
     my $class = shift;
